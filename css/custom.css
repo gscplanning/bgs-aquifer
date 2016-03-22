@@ -1,0 +1,44 @@
+* {
+	font-family: "Open Sans", Arial, sans-serif;
+}
+.navbar .brand {
+	font-family: "Open Sans", Arial, sans-serif;
+	color: #fff;
+}
+.navbar-fixed-top {
+    box-shadow: 0 1px 2px black;
+}
+.navbar-inner {
+	background-color: #27ae60;
+	background-image: none;
+}
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+    border-width: 0 0 0;
+}
+.navbar .nav > li > a {
+	color: #fff;
+	text-shadow: none;
+}
+.navbar .nav > .active > a, 
+.navbar .nav > .active > a:hover,
+.navbar .nav > li > a:hover, 
+.navbar .nav > .active > a:focus {
+	color: #fff;
+	background-color: #2ecc71;
+	text-shadow: none;
+}
+.jumbotron {
+	background: #27ae60;
+}
+
+form.leaflet-control-layers-list {
+	margin-left: 5px;
+	margin-bottom: 0;
+}
+
+.leaflet-control-layers {
+	-webkit-border-radius: 0; */
+    border-radius: 0;
+    max-width: 150px;
+}
