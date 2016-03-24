@@ -28,7 +28,7 @@ function mapInit() {
   //Feature Layers
   //  Blue Grass Stockyard Site Plan
   var bgsLayer = L.tileLayer("//gis.gscplanning.com/tiles/BGS_SitePlan/{z}/{x}/{y}.png", { 
-    "attribution": "<a href='http://emaps.charmeck.org' target='_blank'>LFUCG</a>",
+    "attribution": "<a href='http://lexingtonky.gov' target='_blank'>LFUCG</a>",
     maxZoom: 20
   });
   // Blue Grass Stockyard Fayette Parcel
